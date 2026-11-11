@@ -11,7 +11,12 @@ public class AreaOperacao {
 
     }
 
-    public void exibirInformacoes() {
-
+    public String exibirInformacoes() {
+	return nome + 
+	    "\nID: " + id +
+        "\nLocalização: " + localizacao +
+        "\nTipo de terreno: " + tipoTerreno +
+        "\nNível de risco: " + nivelRisco +
+        "\nDescrição: " + descricao;
     }
 }

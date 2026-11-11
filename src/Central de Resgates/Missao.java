@@ -10,8 +10,8 @@ public class Missao {
     private boolean resultado;
     private int atributo31;
 
-    public void atribuirRobo() {
-
+    public void atribuirRobo(Robo robo) {
+	missao.roboResponsavel = robo;
     }
 
     public void iniciar() {
